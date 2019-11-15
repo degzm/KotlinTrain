@@ -1,4 +1,4 @@
-package dev.deg.holamundo
+package dev.deg.holamundo.Entrenamiento
 
 import android.util.Log
 
@@ -8,7 +8,7 @@ No hay tipos basicos.
 No existe void (Se devuelve Unit Object)
 Las variables son mutables e inmutables (Var y Val)
  */
-class Train{
+class Variables{
     /*
     Si no se asigna el tipo de variable, Kotlin la asigna automaticamente
     */
@@ -93,5 +93,17 @@ class Train{
     //Show case boolean
     private fun showCase9(){
         Log.w("VARIABLE-9", "Es un booleano? " + (var9 is Array<Int>))
+    }
+
+    public fun showCases(){
+        showCase1()
+        showCase2()
+        showCase3()
+        showCase4()
+        showCase5()
+        showCase6()
+        showCase7()
+        showCase8()
+        showCase9()
     }
 }
