@@ -1,6 +1,5 @@
 package dev.deg.holamundo.Entrenamiento
 
-import android.app.Person
 import android.util.Log
 
 class Operators{
@@ -58,4 +57,11 @@ class Operators{
     }
 
     data class PersonDataClass(val name:String = "Deg", val age:Int = 18)
+
+    fun showCases() {
+        showCase1()
+        showCase2()
+        showCase3()
+        showCase4()
+    }
 }
