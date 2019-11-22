@@ -6,8 +6,7 @@ import android.util.Log
 En kotlin todo es un objeto.
 No hay tipos basicos.
 No existe void (Se devuelve Unit Object)
-Las variables son mutables e inmutables (Var y Val)
- */
+   */
 class Variables{
     /*
     Si no se asigna el tipo de variable, Kotlin la asigna automaticamente
