@@ -1,5 +1,7 @@
 package dev.deg.holamundo.Entrenamiento
 
+import android.util.Log
+
 // DOC: #https://kotlinlang.org/docs/reference/classes.html
 // DOC: #https://kotlinlang.org/docs/reference/properties.html
 // DOC: #https://kotlinlang.org/docs/reference/data-classes.html
