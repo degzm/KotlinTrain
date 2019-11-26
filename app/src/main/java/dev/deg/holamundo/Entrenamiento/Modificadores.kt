@@ -19,7 +19,6 @@ open class Modificadores {
         val test = Modificadores()
         test.prop1
     }
-
 }
 
 class AccessModifiersChild : Modificadores() {
